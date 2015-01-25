@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Salharov Report Table Alignment",
+  "description": "Align tables for Sakharov report",
+  "version": "0.0.1",
+  "permissions": [
+    "tabs",
+    "http://www2s.biglobe.ne.jp/~sakharov/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://www2s.biglobe.ne.jp/~sakharov/*"],
+      "js": ["myscript.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
