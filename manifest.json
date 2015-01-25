@@ -4,7 +4,7 @@
   "description": "Align tables for Sakharov report",
   "version": "0.0.2",
   "permissions": [
-    "tabs",
+    "activeTab",
     "http://www2s.biglobe.ne.jp/~sakharov/*"
   ],
   "content_scripts": [
